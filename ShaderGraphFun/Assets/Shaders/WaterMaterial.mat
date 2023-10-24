@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SphereMaterial
+  m_Name: WaterMaterial
   m_Shader: {fileID: -6465566751694194690, guid: a4d6d8c2d940de847b68845b13452f49,
     type: 3}
   m_ValidKeywords: []
@@ -40,52 +40,51 @@ Material:
     m_Ints: []
     m_Floats:
     - _BiggerWave_Height: 1
-    - _BiggerWave_Power: 5
-    - _BiggerWave_RotateX: 0.15
-    - _BiggerWave_RotateZ: 0.4
-    - _BiggerWave_Scale: 10
+    - _BiggerWave_Power: 1
+    - _BiggerWave_RotateX: 0
+    - _BiggerWave_RotateZ: 0
+    - _BiggerWave_Scale: 2
     - _BiggerWave_Speed: 1
-    - _FresnelPower: 5
-    - _FrothBlend: 0.4
-    - _FrothFalloff: 1
-    - _FrothFlatness: 0.9
-    - _FrothFlatnessFalloff: 0.01
-    - _FrothScaleBig: 2
-    - _FrothScaleSmall: 0.5
-    - _FrothSpeed: 1
-    - _FrothStep: 3
-    - _GradientScale: 1
-    - _MediumWave_ColourBlend: 1
+    - _FresnelPower: 6.39
+    - _FrothBlend: 14.64
+    - _FrothFalloff: 6.62
+    - _FrothFlatness: 0.1
+    - _FrothFlatnessFalloff: 0
+    - _FrothScaleBig: 1
+    - _FrothScaleSmall: 4
+    - _FrothSpeed: 0.5
+    - _FrothStep: 3.2
+    - _GradientScale: 0
+    - _MediumWave_ColourBlend: 0
     - _MediumWave_Height: 0.5
-    - _MediumWave_Power: 5
+    - _MediumWave_Power: 1.44
     - _MediumWave_RotateX: 0.46
     - _MediumWave_RotateZ: 0.21
-    - _MediumWave_Scale: 2
-    - _MediumWave_Speed: 2
+    - _MediumWave_Scale: 5.22
+    - _MediumWave_Speed: 1.09
     - _Metalness: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionBlend: 1
-    - _RefractionScale: 1
-    - _RefractionStrength: 1
-    - _SmallerWave_Height: 0.25
-    - _SmallerWave_Power: 0.1
+    - _RefractionBlend: 0
+    - _RefractionScale: 49.6
+    - _RefractionStrength: 0.1
+    - _SmallerWave_Height: 1
+    - _SmallerWave_Power: 1
     - _SmallerWave_RotateX: 0.5
-    - _SmallerWave_RotateZ: 2
-    - _SmallerWave_Scale: 1
-    - _SmallerWave_Speed: 5
-    - _Smoothness: 0
-    - _TopColourContrast: 1.83
+    - _SmallerWave_RotateZ: 0.77
+    - _SmallerWave_Scale: 6.5
+    - _SmallerWave_Speed: 2.01
+    - _Smoothness: 1
+    - _TopColourContrast: 1
     m_Colors:
     - _BottomDarkColour: {r: 0, g: 0.10694157, b: 0.16981125, a: 0}
     - _BottomLightColour: {r: 0, g: 0.74296427, b: 1, a: 0}
-    - _Color: {r: 1, g: 0, b: 0, a: 0}
     - _GradientMinMax: {r: 0, g: 1, b: 0, a: 0}
-    - _GradientSpeed: {r: 0, g: 4, b: 0, a: 0}
+    - _GradientSpeed: {r: 3.7, g: 3.13, b: 0, a: 0}
     - _TopDarkColour: {r: 0.094117604, g: 0.9215687, b: 1, a: 1}
     - _TopLightColour: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6121169565922865183
+--- !u!114 &1109979338463659072
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
